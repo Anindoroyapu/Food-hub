@@ -1,0 +1,418 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+.header{
+    
+    height:100vh;
+    width: 100%;
+    background-image: url(Main.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    text-underline-offset: none;
+
+}
+nav{
+    font-family: Montserrat;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 10px;
+    padding-left: 2%;
+    padding-right: 2%;
+    
+
+}
+nav ul li{
+    display: inline-block;
+    list-style-type: none;
+    padding: 10px 20px;
+}
+nav ul li a{
+    color: white;
+    text-decoration: none;
+    font-weight: 900;
+    
+    font-size: 50px;
+}
+.title{
+    padding-top: 5%;
+    font-family: Grand Hotel;
+    color: rgb(231, 179, 8);
+    font-size: 80px;
+    padding-left: 45%;
+    background-image: url(Vector\ Tomato.png);
+    background-repeat: no-repeat;
+    background-position:85% ;
+    background-size: 7%;
+
+}
+.icon{
+    padding-left: 40%;
+    display: inline-block;
+    display: flex;
+    height: 20px;
+    position: absolute;
+    background-image: url(png\ 1.png);
+    background-repeat: no-repeat;
+
+
+}
+.ig{
+    box-sizing: 40px;
+
+}
+.sell{
+    height: 100vh;
+    width: 100%;
+    background-color: white;
+    
+
+}
+.Best-sellar{
+    font-family: Grand Hotel;
+    align-items: center;
+    font-size: 100px;
+    padding-top: 100px;
+    width: 100%;
+
+}
+.sell h3{
+    font-family:Lato;
+    font-size: 32px;
+    font-weight: 5%;
+
+}
+.detail{
+    display: inline-block;
+    display: flex;
+    height: 20px;
+    padding-top: 40px;
+    justify-content: space-between;
+    padding-left:280px;
+    padding-right: 280px;
+}
+.detail img{
+    border-radius: 100%; 
+}
+.Best{
+    font-family: Grand Hotel;
+    font-size: 50px;
+    align-items: center;
+
+}
+.look{
+    font-family: Lato;
+    font-size: 24px;
+}
+.Def{
+    font-family:Lato ;
+    font: bold;
+    padding-left: 45%;
+    font-size: 30px;
+    color:white;
+    background-image: url(Vector\ Leep.png);
+    background-repeat: no-repeat;
+    background-size: 5%;
+    background-position: 35%;
+    
+}
+.ig-one{
+    background-image: url(png 1.png);
+}
+.pack{
+    height: 80vh;
+    width: 100%;
+    background-image: url(Vectorimg.jpg);
+    background-size:100%;
+    background-repeat: no-repeat;
+}
+.pack img{
+    border-radius: 100%;
+    size: 4%;
+}
+.Raf{
+    height: 250px;
+    width: 90%;
+padding-left: 43%;
+background-image: url(Vector\ piyag.png);
+background-repeat: no-repeat;
+background-position: right;
+background-size: 5%;
+}
+.RRR{
+    height: 400px;
+    background-image: url(Vector\ Kata.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 8%;
+}
+.BAck{
+    background-image: url(png\ 1.png);
+    background-repeat: no-repeat;
+    background-size: 2%;
+
+}
+.Auto{
+    width: 70%;
+    display: flex;
+      
+    
+}
+.A{
+    height: 400px;
+    padding-top: 250px;
+    padding-left: 250px;
+    
+    
+}
+.B{
+    font-family: Grand Hotel;
+    font-size: 100px;
+    color:gold;
+    padding-left: 55%;
+    padding-top: 300px;
+    
+    background-repeat: no-repeat;
+    height: 500px;
+    
+    width: 90%;}
+
+.Orint{
+    height: 100vh;
+    background-color:rgb(49, 49, 49);
+}
+.one{
+    font-family: Grand Hotel;
+    position:center ;
+    font-size: 140px;
+    padding-top: 100px;
+    color: gold;
+
+}
+.two{
+    font-family: Lato;
+    font-size: 40px;
+    font-weight: bolder;
+    color: white;
+}
+.Three{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 80%;
+    font-family: Montserrat;
+    font-weight: bolder;
+    padding-left: 20%;
+    padding-top: 8%;
+    color: white;
+}
+.Three span{
+    color: gold;
+    font-size: 50px;
+    
+}
+.FF{
+    border: 4px solid white;
+    border-radius: 100%;
+    height: 200px;
+    width: 200px;
+    border-block: center;
+    text-align: center;
+}
+.yee{
+   
+    width: 90%;
+    padding-left: 6%;
+    text-align: center;
+    justify-content: space-between;
+    display: flex;
+
+}
+
+.AF img{
+    height: 50px;
+}
+.BL img{
+    height: 150px;  
+}
+.CF img{
+    height: 150px;
+}
+.Cl{
+    height: 80vh;
+    width: 100%;
+    background-image: url(Vectorimg11.jpg);
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: space-between;
+}
+.CR{
+    padding-left: 10%;
+    
+}
+.OMG{
+    padding-right: 10%;
+    padding-top: 8%;
+}
+.OMG img{
+    border-radius: 100%;
+}
+.sub{
+    height: 100vh;
+    width: 100%;
+
+}
+.footer{
+    
+}
+.hare{
+    align-items: center;
+    font-size: 50px;
+}
+.there{
+    font-family: Grand Hotel;
+    font-size: 80px;
+}
+.zero{
+    
+    padding-top: 17%;
+}
+.SCribe{
+    padding-top: 10%;
+}
+.dip{
+    position: relative;
+}
+.sado{
+    box-sizing: 10px;
+    width: 680px;
+    max-width: 100%;
+    position: relative;
+    box-shadow: 0px 0px 15px #000 , 0px 0px 15px #858585 ; 
+    
+}
+.sado form input:first-child{
+    
+    width: 100%;
+    padding: 14px 130px 14px 25px;
+    outline: none;
+    border-radius:5px;
+}
+.sado form input:last-child{
+    position: absolute;
+    
+    outline: none;
+    border: none;
+    padding: 10px 30px;
+    border-radius: 5px;
+    background-color: gold;
+    color: black;
+    box-shadow: 0px 0px 15px #000 , 0px 0px 15px #858585 ; 
+}
+.div{
+    background-image: url(Image\ \ Large@1x_1-1.jpg);
+    height: 100vh;
+}
+.col_white_amrc { color:#FFF;}
+footer { width:100%; 
+    background-color:#263238; 
+    min-height:250px; 
+    padding:10px 0px 25px 0px ;
+}
+.pt2 { 
+    padding-top:40px ; 
+    margin-bottom:20px ;
+}
+footer p {
+     font-size:13px; 
+     color:#CCC; 
+     padding-bottom:0px; 
+     margin-bottom:8px;
+    }
+.mb10 {
+     padding-bottom:15px ;
+    }
+.footer_ul_amrc { 
+    margin:0px ; 
+    list-style-type:none ;
+     font-size:14px; 
+     padding:0px 0px 10px 0px ;
+     }
+.footer_ul_amrc li {
+padding:0px 0px 5px 0px;
+}
+.footer_ul_amrc li a{
+     color:#CCC;
+    }
+.footer_ul_amrc li a:hover{ 
+    color:#fff; 
+    text-decoration:none;
+}
+.fleft {
+     float:left;
+    }
+.padding-right {
+     padding-right:10px; 
+    }
+
+.footer_ul2_amrc {
+    margin:0px; 
+    list-style-type:none; 
+    padding:0px;
+}
+.footer_ul2_amrc li p {
+     display:table; 
+    }
+.footer_ul2_amrc li a:hover {
+     text-decoration:none;
+    }
+.footer_ul2_amrc li i {
+     margin-top:5px;
+    }
+
+.bottom_border {
+     border-bottom:1px solid #323f45;
+      padding-bottom:20px;
+    }
+.foote_bottom_ul_amrc {
+	list-style-type:none;
+	padding:0px;
+	display:table;
+	margin-top: 10px;
+	margin-right: auto;
+	margin-bottom: 10px;
+	margin-left: auto;
+}
+.foote_bottom_ul_amrc li {
+     display:inline;
+    }
+.foote_bottom_ul_amrc li a {
+     color:#999;
+      margin:0 12px;
+    }
+
+.social_footer_ul {
+     display:table; 
+     margin:15px auto 0 auto; 
+     list-style-type:none;  
+    }
+.social_footer_ul li { 
+    padding-left:20px; 
+    padding-top:10px;
+     float:left;
+     }
+.social_footer_ul li a {
+     color:#CCC;
+      border:1px solid #CCC; 
+      padding:8px;
+      border-radius:50%;
+    }
+.social_footer_ul li i {
+      width:20px; 
+      height:20px;
+       text-align:center;
+    }
