@@ -4,6 +4,7 @@
     box-sizing: border-box;
     
 }
+/* ---- Start Header css---- */
 .header{
     
     height:100vh;
@@ -13,6 +14,13 @@
     background-repeat: no-repeat;
     background-position: center;
     text-underline-offset: none;
+
+}
+.logo{
+    float: left;
+}
+.menu{
+    float: right;
 
 }
 nav{
@@ -38,7 +46,8 @@ nav ul li a{
     
     font-size: 50px;
 }
-.title{
+/* ---- End Header css---- */
+.title {
     padding-top: 5%;
     font-family: Grand Hotel;
     color: rgb(231, 179, 8);
@@ -49,6 +58,9 @@ nav ul li a{
     background-position:85% ;
     background-size: 7%;
 
+}
+.title h1{
+    font-size: 100px;
 }
 .icon{
     padding-left: 40%;
@@ -416,3 +428,8 @@ padding:0px 0px 5px 0px;
       height:20px;
        text-align:center;
     }
+
+/*-------- */    
+.counter-menu{
+    padding-top: 70px;
+}
