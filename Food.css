@@ -19,9 +19,10 @@
 .logo{
     float: left;
 }
+
 .menu{
     float: right;
-
+    
 }
 nav{
     font-family: Montserrat;
@@ -29,8 +30,7 @@ nav{
     align-items: center;
     justify-content: space-between;
     padding-top: 10px;
-    padding-left: 2%;
-    padding-right: 2%;
+
     
 
 }
@@ -44,11 +44,11 @@ nav ul li a{
     text-decoration: none;
     font-weight: 900;
     
-    font-size: 50px;
+    font-size: 100%;
 }
 /* ---- End Header css---- */
 .title {
-    padding-top: 5%;
+    padding-top: 10%;
     font-family: Grand Hotel;
     color: rgb(231, 179, 8);
     font-size: 80px;
@@ -77,28 +77,28 @@ nav ul li a{
     box-sizing: 40px;
 
 }
-.sell{
+.slider_section{
     height: 100vh;
     width: 100%;
     background-color: white;
     
 
 }
-.Best-sellar{
+.slider_section_content{
     font-family: Grand Hotel;
     align-items: center;
-    font-size: 100px;
-    padding-top: 100px;
+    font-size: 130px;
+    padding-top: 80px;
     width: 100%;
 
 }
-.sell h3{
+.slider_section h3{
     font-family:Lato;
     font-size: 32px;
     font-weight: 5%;
 
 }
-.detail{
+.slider_section_detail{
     display: inline-block;
     display: flex;
     height: 20px;
@@ -107,46 +107,52 @@ nav ul li a{
     padding-left:280px;
     padding-right: 280px;
 }
-.detail img{
-    border-radius: 100%; 
+.slider_section_detail img{
+    border-radius: 100%;
+    scale: 130%; 
 }
-.Best{
+.slider_section_main{
     font-family: Grand Hotel;
     font-size: 50px;
     align-items: center;
+    padding-top: 20%;
 
 }
-.look{
+.main_content{
     font-family: Lato;
     font-size: 24px;
 }
-.Def{
+.header-contect{
     font-family:Lato ;
     font: bold;
     padding-left: 45%;
-    font-size: 30px;
+    padding-top: 2%;
+    font-size: 2.8rem;
     color:white;
     background-image: url(Vector\ Leep.png);
     background-repeat: no-repeat;
-    background-size: 5%;
+    background-size: 6%;
     background-position: 35%;
     
+}
+.header-contect h3{
+    font-size: 2.8rem;
 }
 .ig-one{
     background-image: url(png 1.png);
 }
-.pack{
+.client_section{
     height: 80vh;
     width: 100%;
     background-image: url(Vectorimg.jpg);
     background-size:100%;
     background-repeat: no-repeat;
 }
-.pack img{
+.client_section img{
     border-radius: 100%;
     size: 4%;
 }
-.Raf{
+.order-button{
     height: 250px;
     width: 90%;
 padding-left: 43%;
@@ -155,49 +161,50 @@ background-repeat: no-repeat;
 background-position: right;
 background-size: 5%;
 }
-.RRR{
+.header-button-background{
     height: 400px;
     background-image: url(Vector\ Kata.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: 8%;
 }
-.BAck{
+.header-button{
     background-image: url(png\ 1.png);
     background-repeat: no-repeat;
     background-size: 2%;
 
 }
-.Auto{
+.client_section_img{
     width: 70%;
     display: flex;
       
     
 }
-.A{
+.client_section_img_col_1{
     height: 400px;
-    padding-top: 250px;
+    padding-top: 200px;
     padding-left: 250px;
+    scale: 160%;
     
     
 }
-.B{
+.client_section_ditails{
     font-family: Grand Hotel;
-    font-size: 100px;
+    font-size: 150px;
     color:gold;
-    padding-left: 55%;
-    padding-top: 300px;
+    padding-left:40%;
+    padding-top: 200px;
     
     background-repeat: no-repeat;
     height: 500px;
     
     width: 90%;}
 
-.Orint{
+.team_section_layout{
     height: 100vh;
     background-color:rgb(49, 49, 49);
 }
-.one{
+.team_section_one{
     font-family: Grand Hotel;
     position:center ;
     font-size: 140px;
@@ -205,13 +212,13 @@ background-size: 5%;
     color: gold;
 
 }
-.two{
+.team_section_two{
     font-family: Lato;
     font-size: 40px;
     font-weight: bolder;
     color: white;
 }
-.Three{
+.team_section_Three{
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -222,7 +229,7 @@ background-size: 5%;
     padding-top: 8%;
     color: white;
 }
-.Three span{
+.team_section_Three span{
     color: gold;
     font-size: 50px;
     
@@ -433,3 +440,23 @@ padding:0px 0px 5px 0px;
 .counter-menu{
     padding-top: 70px;
 }
+@media only screen and (max-width: 2500px) {
+    body {
+      background-color: lightblue;
+    }
+    .slider_section{
+        background-color: blue;
+    }
+  }
+  @media only screen and (max-width: 400px) {
+    body {
+      background-color: lightblue;
+    }
+    .slider_section{
+        background-color: rgb(228, 11, 11);
+    }
+    .slider_section_detail img {
+        
+        scale: 83%;
+    }
+  }
